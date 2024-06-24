@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>X Shop Portal</title>
+    <title>The X Shop Portal</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="square">
         <div class="header">
-            <h1>X Shop Portal</h1>
+            <h1>The X Shop Portal</h1>
             <div class="profile-placeholder">
                 <span>Mr. Jane</span>
             </div>
@@ -19,16 +19,24 @@
         Click shop icon below to start shopping</p>
         <div id="white-square">
             <div class="shop-icon">
-                <div class="placeholder">Amazon<br>max 5%</div>
+                <a href="#" onclick="redirectToShop('amazon', 0.05)">
+                    <div class="placeholder">Amazon<br>max 5%</div>
+                </a>
             </div>
             <div class="shop-icon">
-                <div class="placeholder">Shopee<br>max 7%</div>
+                <a href="#" onclick="redirectToShop('shopee', 0.07)">
+                    <div class="placeholder">Shopee<br>max 7%</div>
+                </a>
             </div>
             <div class="shop-icon">
-                <div class="placeholder">Lazada<br>max 2%</div>
+                <a href="#" onclick="redirectToShop('lazada', 0.02)">
+                    <div class="placeholder">Lazada<br>max 2%</div>
+                </a>
             </div>
             <div class="shop-icon">
-                <div class="placeholder">Ebay<br>max 3%</div>
+                <a href="#" onclick="redirectToShop('ebay', 0.03)">
+                    <div class="placeholder">Ebay<br>max 3%</div>
+                </a>
             </div>
         </div>
     </div>
