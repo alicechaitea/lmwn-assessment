@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The X Shop Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="square">
+        <div class="header">
+            <h1>The X Shop Portal</h1>
+            <div class="profile-placeholder">
+                <span>Mr. Jane</span>
+            </div>
+        </div>
+        <p>Get cash back to your bank account when<br>
+        purchase item from the shops below<br>
+        Click shop icon below to start shopping</p>
+        <div id="white-square">
+            <div class="shop-icon">
+                <a href="#" onclick="redirectToShop('amazon')">
+                    <div class="placeholder">Amazon<br>max 5%</div>
+                </a>
+            </div>
+            <div class="shop-icon">
+                <a href="#" onclick="redirectToShop('shopee')">
+                    <div class="placeholder">Shopee<br>max 7%</div>
+                </a>
+            </div>
+            <div class="shop-icon">
+                <a href="#" onclick="redirectToShop('lazada')">
+                    <div class="placeholder">Lazada<br>max 2%</div>
+                </a>
+            </div>
+            <div class="shop-icon">
+                <a href="#" onclick="redirectToShop('ebay')">
+                    <div class="placeholder">Ebay<br>max 3%</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
